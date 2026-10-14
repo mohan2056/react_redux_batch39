@@ -1,8 +1,14 @@
+import { Col, Container, Row } from "react-bootstrap";
+
 const App = () => {
   return(
-    <div>
-      <h1>Student CRUD REACT REDUX PROJECT</h1>
-    </div>
+   <Container>
+    <Row>
+      <Col>
+        <h1>Sample React Redux Application</h1>
+      </Col>
+    </Row>
+   </Container>
   )
 }
 
